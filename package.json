@@ -1,0 +1,18 @@
+{
+  "entry": {
+    "index": "./src/entries/index.js"
+  },
+  "devDependencies": {
+    "atool-build": "^0.7.2",
+    "electron-packager": "^7.0.2",
+    "electron-prebuilt": "^1.1.0"
+  },
+  "scripts": {
+    "start": "electron ./main",
+    "build": "atool-build --no-compress --watch"
+  },
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  }
+}
